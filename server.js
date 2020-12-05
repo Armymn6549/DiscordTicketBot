@@ -6,12 +6,12 @@ const client = new Discord.Client({
   fetchAllMembers: true
 })
 
-const logChannelId = '689054146128642123'
+const logChannelId = '774016451107356723'
 
-const blockedRoleIds = ['440902183391723520']
+const blockedRoleIds = ['783102010135150602']
 
-const administratorRoleName = "CSGO: Head Admin"
-const moderatorRoleName = "CSGO: Admins"
+const administratorRoleName = "🔑Director of Moderation🔑"
+const moderatorRoleName = "🔨Moderator🔨"
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`)
